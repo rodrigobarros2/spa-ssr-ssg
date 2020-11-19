@@ -1,0 +1,67 @@
+SSR = Renderiza no servidor (Next.Js) 
+
+Vantagems
+Ótimo em SEO
+Menor processamento do lado do usuário
+Código compartilhado com o backend Node
+
+Desvantagens
+Time to first byte 
+Reload completo nas mudanças de rotas
+Html Maior
+
+Quando Usar
+Quando temos a necessidade de um spa e um loading mais rápido
+Quando muda o conteído frequentemente e ao mesmo tempo preciso de mais SEO
+Quando Trabalha com um numero muito grande de páginas
+
+Casos de Uso: E-Commerce e Sites de Notícias
+
+
+
+
+SSG = Geração de Staticos (Gatsby, Next.js)página normal html css e js puro CEO TOP
+
+Vantagens
+Flexibilidade para usar qualquer servidor
+Melhor Performace de todos
+Melhor Cache
+
+
+Desvantages
+Dificuldade para escalar aplicações grandes 
+Dificultades para realizar atualizações constantes
+
+Quando Usar
+
+Site simples sem muita iteração do usuári
+Se você é a únida pessoa que publica conteúdo
+Se o conteúdo muda pouco
+Se o site é simples, sem tantas páginas
+Quando a performace é extremamente important
+
+
+Caso de uso: Landing Pages, Blogs, Portfólios.
+
+
+
+SPA = (create-react-app),demora o loading
+Vantagens
+Ricas interações sem recarregar a página
+Site mais rápido após o load inicial
+Ótimo para aplicações web, como Facebook Web, SpotiFy Web, Twitter
+
+Desvantagem
+Load inicial pode ser muito grande
+Performace imprevisível
+Dificuldades no SEO consegue? consegue! mas a maioria do conteudo não é indexado 100% e perde no ranking
+
+Qunaod Usar 
+Quando precisa de autenticação
+Quando não temos tanta necessidade de indexar informações no Google SEO
+Quando o usuário faz muiotas iterações na página e não quer ter refreshs entre uma página e outra
+Quando as informações vão ser diferentes para cada usuário(Autenticação por exemplo)
+
+Exemplos de uso: Twitter, Facebook, Spotify Web
+
+
